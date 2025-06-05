@@ -11,19 +11,22 @@ export default function Links() {
             className="bg-green-600 text-white hover:bg-green-700 px-8 py-4 rounded-lg"
             size="lg"
           >
-            <Twitter className="mr-2 h-4 w-4" /> Twitter
+            <Twitter className="mr-2 h-8 w-8" />
+            <span className="text-2xl font-normal">Twitter</span>
           </Button>
           <Button
             className="bg-green-600 text-white hover:bg-green-700 px-8 py-4 rounded-lg"
             size="lg"
           >
-            <Discord className="mr-2 h-4 w-4" /> Discord
+            <Discord className="mr-2 h-8 w-8" />
+            <span className="text-2xl font-normal">Discord</span>
           </Button>
           <Button
             className="bg-green-600 text-white hover:bg-green-700 px-8 py-4 rounded-lg"
             size="lg"
           >
-            <Github className="mr-2 h-4 w-4" /> GitHub
+            <Github className="mr-2 h-8 w-8" />
+            <span className="text-2xl font-normal">GitHub</span>
           </Button>
         </div>
       </div>
