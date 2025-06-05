@@ -13,7 +13,7 @@ export default function Collection() {
   return (
     <section id="collection" className="py-20 bg-gray-900 relative">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-medium mb-12 text-center text-white">Collection</h2>
+        <h2 className="text-4xl font-medium mb-12 text-center hover:text-red-500 transition-colors">Collection</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {nfts.map((nft) => (
             <div key={nft.id} className="bg-gray-800 rounded-lg overflow-hidden">

@@ -14,7 +14,7 @@ export default function Story() {
       style={{ backgroundImage: "url('/ZeroHourStoryBg.jpg')" }}
     >
       <div className="container mx-auto px-4 relative z-10">
-        <h2 className="text-6xl font-semibold mb-12 text-center hover:text-red-500 transition-colors">
+        <h2 className="text-6xl font-medium mb-12 text-center hover:text-red-500 transition-colors">
           The Zero Hour Story
         </h2>
         <p className="text-2xl mb-8 text-center text-blue-300">
